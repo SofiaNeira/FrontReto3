@@ -29,24 +29,25 @@
     </ul>
     </div>
     </nav>
- 
-<label>STARTDATE: Escoja la Fecha Inicio de la Reservacion</label>
-<input class="controlReservation" type="date" id="startDate" placeholder="startDate"><br>
-<label>DEVOLUTIONDATE: Escoja la Fecha Devolucion de la Reservacion</label>
-<input class="controlReservation" type="date" id="devolutionDate" placeholder="devolutionDate"><br>
-<label>STATUS: Estado de la Reservacion "completed / cancelled</label>
-<input class="controlReservation" type="text" id="status" placeholder="escriba completed o cancelled para el estado de la Reservacion ">
+    <div id="categoria-cuadro"> 
+    <label>STARTDATE: Escoja la Fecha Inicio de la Reservacion</label>
+    <input class="controlReservation" type="date" id="startDate" placeholder="startDate"><br>
+    <label>DEVOLUTIONDATE: Escoja la Fecha Devolucion de la Reservacion</label>
+    <input class="controlReservation" type="date" id="devolutionDate" placeholder="devolutionDate"><br>
+    <label>STATUS: Estado de la Reservacion "completed / cancelled</label>
+    <input class="controlReservation" type="text" id="status" placeholder="escriba completed o cancelled para el estado de la Reservacion ">
 
-<select id="select-client"></select>
-    <script type="text/javascript">
-        window.onload = autoInicioRelacionCliente();
-    </script>
-        <select id="select-skate"></select>
+    <select id="select-client"></select>
         <script type="text/javascript">
-            window.onload = autoInicioSkate();
+            window.onload = autoInicioRelacionCliente();
         </script>
- <button onclick=" agregarReservation()">Guardar Reserva</button>
+            <select id="select-skate"></select>
+            <script type="text/javascript">
+                window.onload = autoInicioSkate();
+            </script>
+    <button onclick=" agregarReservation()">Guardar Reserva</button>
 
- <div id="miListaReservation"></div>
+    <div id="miListaReservation"></div>
+</div>
 </body>
 </html>

@@ -30,19 +30,19 @@
     </div>
     </nav>
 
+    <div id="categoria-cuadro">
+        <button onclick="traerReporteStatus()"> Generar Reporte Status Reservas </button>
+        <div id="resultadoStatus"></div>
 
-    <button onclick="traerReporteStatus()"> Generar Reporte Status Reservas </button>
-    <div id="resultadoStatus"></div>
+        
+        <input type="date" id="RstarDate" placeholder="descripcion">
+        <input type="date" id="RdevolutionDate" placeholder="descripcion">
+        <button onclick="traerReporteDate()"> Generar Reporte por fecha </button>
+        <div id="resultadoDate"></div>
 
-       
-    <input type="date" id="RstarDate" placeholder="descripcion">
-    <input type="date" id="RdevolutionDate" placeholder="descripcion">
-    <button onclick="traerReporteDate()"> Generar Reporte por fecha </button>
-    <div id="resultadoDate"></div>
-
-    
-    <button onclick="traerReporteClientes()"> Generar Reporte Clientes y Cantidad de reservas por cliente </button>
-    <div id="resultadoClientes"></div>
-
+        
+        <button onclick="traerReporteClientes()"> Generar Reporte Clientes y Cantidad de reservas por cliente </button>
+        <div id="resultadoClientes"></div>
+    </div>
 </body>
 </html> 

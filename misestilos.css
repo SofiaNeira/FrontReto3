@@ -145,3 +145,40 @@ margin: 0px auto;
                             width: 27.33%;
                             padding: 3%;
                             }
+
+
+
+#categoria-cuadro{
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    border: 2px #ae24ee solid;
+    border-radius: 20px;
+    border-top: none;
+    border-bottom: none;
+    background-color: #bf49f6b9;
+}
+
+#categoria-cuadro button{
+    margin: 10px;;
+    background-color: #04aab6ca;
+    border-radius: 10px;
+    border: white;
+    width: 150px;
+    height: 45px;
+}
+
+#categoria-cuadro input{
+    border-radius: 15px;
+    text-align: center;
+    height: 35px;
+    margin-top: 10px;
+}
+
+#boton-consulta, #boton-guarda,
+#inputs{
+    margin-left: 170px;
+    margin-bottom: 20px;
+}

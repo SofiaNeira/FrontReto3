@@ -30,19 +30,21 @@
     </div>
     </nav>
 
-    <div id="resultadoMensajes"></div>
-    <script type="text/javascript"> 
-    window.onload = autoInicioMensajes();
-    </script>
-    <input type="text" id="messagetext" placeholder="mensaje">
-    <button onclick="guardarInformacionMensajes()">Guardar Mensajes</button>
-    <select id="select-client"></select>
-    <script type="text/javascript">
-        window.onload = autoInicioRelacionCliente();
-    </script>
-        <select id="select-skate"></select>
-        <script type="text/javascript">
-            window.onload = autoInicioSkate();
+    <div id="categoria-cuadro">
+        <div id="resultadoMensajes"></div>
+        <script type="text/javascript"> 
+        window.onload = autoInicioMensajes();
         </script>
+        <input type="text" id="messagetext" placeholder="mensaje">
+        <button onclick="guardarInformacionMensajes()">Guardar Mensajes</button>
+        <select id="select-client"></select>
+        <script type="text/javascript">
+            window.onload = autoInicioRelacionCliente();
+        </script>
+            <select id="select-skate"></select>
+            <script type="text/javascript">
+                window.onload = autoInicioSkate();
+            </script>
+    </div>
 </body>
 </html>

@@ -29,24 +29,24 @@
     </ul>
     </div>
     </nav>
+    <div id="categoria-cuadro"> 
+        <label>NAME:</label>
+        <input class="controlSkate" type="text" id="name2" placeholder="escribe el nombre" ><br>
+        <label>MODEL:</label>
+        <input class="controlSkate" type="text" id="brand" placeholder="escribe la marca" ><br>
+        <label>YEAR:</label>
+        <input class="controlSkate" type="number" id="year" placeholder="escribe solo el año"><br>
+        <label>DESCRIPTION:</label>
+        <input class="controlSkate" type="text" id="description2" placeholder="escribe la descripcion" ><br>
+        <select id="select-category"></select>
+        <script type="text/javascript">
+            window.onload = autoInicioCategoria();
+        </script>
 
-    <label>NAME:</label>
-    <input class="controlSkate" type="text" id="name2" placeholder="escribe el nombre" ><br>
-    <label>MODEL:</label>
-    <input class="controlSkate" type="text" id="brand" placeholder="escribe la marca" ><br>
-    <label>YEAR:</label>
-    <input class="controlSkate" type="number" id="year" placeholder="escribe solo el año"><br>
-    <label>DESCRIPTION:</label>
-    <input class="controlSkate" type="text" id="description2" placeholder="escribe la descripcion" ><br>
-    <select id="select-category"></select>
-    <script type="text/javascript">
-        window.onload = autoInicioCategoria();
-    </script>
+    <div id="miListaSkate"></div>
+    <button onclick="traerInformacionSkate()" > Consultar Skate</button>
 
-<div id="miListaSkate"></div>
-<button onclick="traerInformacionSkate()" > Consultar Skate</button>
-
-<button onclick="agregarSkate()">Guardar Skate</button>
-
+    <button onclick="agregarSkate()">Guardar Skate</button>
+    </div>    
 </body>
 </html>

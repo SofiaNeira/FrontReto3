@@ -29,16 +29,18 @@
     </ul>
     </div>
     </nav>
-
-    <div id="resultado1"></div>
-    <button onclick="traerInformacionCategorias()" > Consultar Categorias</button>
-    
-    <div>
-        <input type="text" id="Cname" placeholder="name">
-        <input type="text" id="Cdescription" placeholder="description">
-       
-        
-    </div>
-    <button onclick="guardarInformacionCategorias()">Guardar Categorias</button>
+    <div id="categoria-cuadro">
+        <div id="resultado1"></div>
+        <div id="boton-consulta">
+        <button  onclick="traerInformacionCategorias()" > Consultar Categorias</button>
+        </div>
+        <div id="inputs">
+            <input type="text" id="Cname" placeholder="Nombre">
+            <input type="text" id="Cdescription" placeholder="Descripción">
+        </div>
+        <div id="boton-guarda">
+            <button onclick="guardarInformacionCategorias()">Guardar Categorias</button>
+        </div>
+</div>
 </body>
 </html>
